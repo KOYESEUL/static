@@ -161,6 +161,7 @@
 								<![CDATA[
 									pFn.getSelect();
 								]]>
+								<![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]>
 							</script>
 						</xf:trigger>
 					</xf:group>
