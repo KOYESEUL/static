@@ -344,11 +344,11 @@
     									<xf:trigger type="button" id="btn_search" style="position: relative;" class="but_blue30"
     										ev:onclick="pFn.btn_search_onclick" title="조회">
     										<xf:label><![CDATA[조 회]]></xf:label>
-                        <script ev:event="onclick" type="javascript">
-                          <![CDATA[
-                              alert(document.cookie)
-		                      ]]>
-							</script>
+                        							<script ev:event="onclick" type="javascript">
+                          							<![CDATA[
+                             	 							alert(document.cookie)
+		                      						]]>
+										</script>
     									</xf:trigger>
     								</xf:group>
     							</xf:group>
