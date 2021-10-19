@@ -158,7 +158,9 @@
 						<xf:trigger id="trigger1" style="width: 84px;height: 50px;" type="button">
 							<xf:label><![CDATA[조회]]></xf:label>
 							<script ev:event="onclick" type="javascript">
-								<![CDATA[<]]>script<![CDATA[>]]alert('xss')<![CDATA[<]]>/script<![CDATA[>]]>
+								<![CDATA[
+									alert('xss')
+								]]>
 							</script>
 						</xf:trigger>
 					</xf:group>
