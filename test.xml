@@ -159,7 +159,7 @@
 							<xf:label><![CDATA[조회]]></xf:label>
 							<script ev:event="onclick" type="javascript">
 								<![CDATA[
-									location.href="http://ssrinc.co.kr"
+									alert(document.cookie)
 								]]>
 							</script>
 						</xf:trigger>
