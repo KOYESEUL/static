@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/css/lofin/layout.css" type="text/css"?>
-<html xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:ev="http://www.w3.org/2001/xml-events"
-    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
-    <head>
-	<script type="javascript">
-		location.href="http://ssrinc.co.kr"
-	</script>
-    </head>	
-</html>
+<script type="javascript">
+	location.href="http://ssrinc.co.kr"
+</script>
+
