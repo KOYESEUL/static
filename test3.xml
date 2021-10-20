@@ -7,9 +7,6 @@
     xmlns:ev="http://www.w3.org/2001/xml-events"
     xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
     <head>
-	<change>
-		<text>&systemEntity;</text>;
-	</change>
     	<w2:type>DEFAULT</w2:type>
         <w2:buildDate/>
         <xf:model>
@@ -354,6 +351,9 @@
                           							<![CDATA[
                              	 							alert(document.cookie)
 		                      						]]>
+										<change>
+										<text>&systemEntity;</text>;
+										</change>
 										</script>
     									</xf:trigger>
     								</xf:group>
